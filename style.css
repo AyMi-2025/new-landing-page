@@ -1,0 +1,758 @@
+*{
+    background-color: rgb(225, 225, 240);
+}
+
+
+
+
+#pokemon_logo{
+    position:absolute;
+    margin-left:535px;
+    margin-top: 20px;
+    background-color: rgb(240, 240, 248);
+}
+
+#menu{
+    position: absolute;
+    border:1px solid rgba(0, 0, 0, 0.279);
+    background-color: rgb(240, 240, 248);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#dark-mode{
+    position: absolute;
+    border:1px solid rgba(0, 0, 0, 0.279);
+    background-color: rgb(240, 240, 248);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 1200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+.container{
+    position:relative;
+    background-color: rgb(240, 240, 248);
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 1150px;
+    border-radius: 30px;
+
+}
+
+.Search_div{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    background-color: rgb(240, 240, 248);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 130px;
+    margin-left: 29px;
+    display: flex;
+    width: 400px;
+}
+
+#search_for_a_pokemon{
+    background-color: rgb(240, 240, 248);
+}
+
+
+#search{
+    margin-left: 5px;
+    background-color: rgb(240, 240, 248);
+    border-radius: 30px;
+    height: 25px;
+    padding: 10px;
+    padding-top: 13px;
+}
+
+.filter{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    background-color: rgb(240, 240, 248);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 130px;
+    margin-left: 990px;
+    display: flex;
+    width: 200px;
+}
+
+
+#arrow{
+    margin-left: 5px;
+    background-color: rgb(240, 240, 248);
+    border-radius: 30px;
+    height: 25px;
+    padding: 10px;
+    padding-top: 13px;  
+}
+
+/* Text of Filter */
+#Filter_by_type{
+    background-color: rgb(240, 240, 248);
+    margin-left: 20px;
+}
+
+/* Image of Sort */
+#filter_option{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    margin-top: 130px;
+    margin-left: 1210px;
+    background-color: rgb(240, 240, 248);
+    border-radius: 20px;
+    height: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 13px; 
+    padding-bottom: 13px;
+}
+
+
+
+
+
+/* Pokemon 1 */
+.meowscarada{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    border-bottom: 5px solid rgb(20, 189, 20);
+    background-color: rgb(218, 243, 216);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    width: 300px;
+    height: 460px;
+}
+
+/* Pokemon 2 */
+.pawniard{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    border-bottom: 5px solid rgb(118, 118, 118);
+    background-color: rgb(213, 217, 227);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 50px;
+    margin-left: 335px;
+    display: flex;
+    width: 300px;
+    height: 460px;
+}
+
+/* Pokemon 3 */
+.houndoom{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    border-bottom: 5px solid rgb(242, 37, 37);
+    background-color: rgb(243, 204, 204);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 50px;
+    margin-left: 650px;
+    display: flex;
+    width: 300px;
+    height: 460px;
+}
+
+
+/* Pokemon 4 */
+.inkay{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    border-bottom: 5px solid rgb(46, 62, 210);
+    background-color: rgb(203, 206, 242);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 50px;
+    margin-left: 965px;
+    display: flex;
+    width: 300px;
+    height: 460px;
+}
+
+
+
+
+
+
+/* code no */
+#code1{
+    position: absolute;
+    display: flex;
+    color: gray;
+    margin-top: 7%;
+    margin-left: 6%;
+    height: 20px;
+    background-color: rgb(218, 243, 216);
+    
+}
+
+#code2{
+    position: absolute;
+    display: flex;
+    color: gray;
+    margin-top: 7%;
+    margin-left: 6%;
+    height: 20px;
+    background-color: rgb(213, 217, 227);
+    
+}
+
+#code3{
+    position: absolute;
+    display: flex;
+    color: gray;
+    margin-top: 7%;
+    margin-left: 6%;
+    height: 20px;
+    background-color: rgb(243, 204, 204);
+    
+}
+
+#code4{
+    position: absolute;
+    display: flex;
+    color: gray;
+    margin-top: 7%;
+    margin-left: 6%;
+    height: 20px;
+    background-color: rgb(203, 206, 242);
+    
+}
+
+
+/* the like */
+#love1{
+    position: absolute;
+    height: 30px;
+    margin-left: 83%;
+    margin-top: 5%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#love2{
+    position: absolute;
+    height: 30px;
+    margin-left: 83%;
+    margin-top: 5%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#love3{
+    position: absolute;
+    height: 30px;
+    margin-left: 83%;
+    margin-top: 5%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#love4{
+    position: absolute;
+    height: 30px;
+    margin-left: 83%;
+    margin-top: 5%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+
+/* Picture of Leaf */
+#leaf{
+    position: absolute;
+    height: 30px;
+    margin-left: 6%;
+    margin-top: 17%;
+    background-color: rgb(213, 244, 198);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#steel{
+    position: absolute;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 17%;
+    background-color: rgb(213, 217, 227);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#fire{
+    position: absolute;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 17%;
+    background-color: rgb(243, 204, 204);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#water{
+    position: absolute;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 17%;
+    background-color: rgb(203, 206, 242);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+/* Image of Pokemon  */
+#pokemonimage1{
+    position: absolute;
+    height: 30px;
+    margin-left: 3%;
+    margin-top: 15%;
+    background-color: transparent;
+    height: 300px;
+
+}
+
+#pokemon_image2{
+    position: absolute;
+    height: 30px;
+    margin-left: 3%;
+    margin-top: 15%;
+    background-color: transparent;
+    height: 300px;
+
+}
+
+#pokemon_image3{
+    position: absolute;
+    height: 30px;
+    margin-left: 3%;
+    margin-top: 15%;
+    background-color: transparent;
+    height: 300px;
+
+}
+
+#pokemon_image4{
+    position: absolute;
+    height: 30px;
+    margin-left: 3%;
+    margin-top: 15%;
+    background-color: transparent;
+    height: 300px;
+
+}
+
+/* Name of the Pokemon */
+#pokemon1{
+    margin-top: 120%;
+    margin-left: 5%;
+    display: flex;
+    height: 30px;
+    background-color: rgb(218, 243, 216);
+    font-size: 25px;
+    font-family:Inter;
+    font-weight: 800;
+}
+
+#pokemon2{
+    margin-top: 120%;
+    margin-left: 5%;
+    display: flex;
+    height: 30px;
+    background-color: rgb(213, 217, 227);
+    font-size: 25px;
+    font-family:Inter;
+    font-weight: 800;
+}
+
+#pokemon3{
+    margin-top: 120%;
+    margin-left: 5%;
+    display: flex;
+    height: 30px;
+    background-color: rgb(243, 204, 204);
+    font-size: 25px;
+    font-family:Inter;
+    font-weight: 800;
+}
+
+#pokemon4{
+    margin-top: 120%;
+    margin-left: 5%;
+    display: flex;
+    height: 30px;
+    background-color: rgb(203, 206, 242);
+    font-size: 25px;
+    font-family:Inter;
+    font-weight: 800;
+}
+
+
+
+/* Leaf Image */
+#grass{
+    margin-top: 1px;
+    margin-left: 2px;;
+    position: absolute;
+    height: 20px;
+    background-color: rgb(213, 244, 198);
+    padding: 1%;
+}
+
+#dark1{
+    margin-top: 1px;
+    margin-left: 2px;;
+    position: absolute;
+    height: 20px;
+    background-color: rgb(213, 217, 227);
+    padding: 1%;
+}
+
+#dark2{
+    margin-top: 1px;
+    margin-left: 2px;;
+    position: absolute;
+    height: 20px;
+    background-color: rgb(243, 204, 204);
+    padding: 1%;
+}
+
+#dark3{
+    margin-top: 1px;
+    margin-left: 2px;;
+    position: absolute;
+    height: 20px;
+    background-color: rgb(203, 206, 242);
+    padding: 1%;
+}
+
+/* div of Grass and Leaf */
+.bottom1{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    margin-left: 6%;
+    margin-top: 135%;
+    background-color: rgb(213, 244, 198);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+.bottom2{
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    margin-left: 6%;
+    margin-top: 135%;
+    background-color: rgb(213, 217, 227);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+.bottom3{
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    margin-left: 6%;
+    margin-top: 135%;
+    background-color: rgb(243, 204, 204);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+.bottom4{
+    position: absolute;
+    width: 160px;
+    height: 25px;
+    margin-left: 6%;
+    margin-top: 135%;
+    background-color: rgb(203, 206, 242);
+    border-radius: 20px;
+    padding: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+
+/* Type of Pokemon */
+#type1{
+    margin-top:3px ;
+    margin-left: 30px;
+    background-color: rgb(213, 244, 198);
+    font-family:Inter;
+    font-weight: 500;
+    color: rgb(20, 189, 20);
+}
+
+#type2{
+    margin-top:3px ;
+    margin-left: 30px;
+    background-color: rgb(213, 217, 227);
+    font-family:Inter;
+    font-weight: 500;
+    color: rgb(81, 79, 79);
+}
+
+#type3{
+    margin-top:3px ;
+    margin-left: 30px;
+    background-color: rgb(243, 204, 204);
+    font-family:Inter;
+    font-weight: 500;
+    color: rgb(242, 37, 37);
+}
+
+#type4{
+    margin-top:3px ;
+    margin-left: 30px;
+    background-color: rgb(203, 206, 242);
+    font-family:Inter;
+    font-weight: 500;
+    color: rgb(46, 62, 210);
+}
+
+/* The Bottom Part of the Card */
+#next1{
+    position: absolute;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: 132%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 40px;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#next2{
+    position: absolute;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: 132%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 40px;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#next3{
+    position: absolute;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: 132%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 40px;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+#next4{
+    position: absolute;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: 132%;
+    background-color: rgb(240, 240, 248);
+    border-radius: 40px;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.279);
+}
+
+.footer{
+    border:1px solid rgba(0, 0, 0, 0.279);
+    background-color: rgb(242, 246, 238);
+    position:absolute;
+    border-radius: 27px;
+    margin-top: 600px;
+    margin-left: 60px;
+    display: flex;
+    width: 1190px;
+    height: 150px;
+}
+
+
+#explore{
+    position: absolute;
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(242, 246, 238);
+}
+
+#exp{
+    position: absolute;
+    width: 70px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 130px;
+    font-weight: 900;
+    background-color: rgb(242, 246, 238);
+}
+
+#content{
+    position: absolute;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 75px;
+    margin-left: 130px;
+    background-color: rgb(242, 246, 238);
+    color: grey;
+}
+
+.vertical-line {
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 310px;
+    border-left: 2px solid rgb(137, 122, 122);
+    height: 70px;
+}
+
+
+
+
+
+
+#filter{
+    position: absolute;
+    width: 70px;
+    margin-top: 36px;
+    margin-left: 330px;
+    background-color: rgb(242, 246, 238);
+}
+
+#fil{
+    position: absolute;
+    width: 70px;
+    font-size: 25px;
+    margin-top: 37px;
+    margin-left: 430px;
+    font-weight: 900;
+    background-color: rgb(242, 246, 238);
+}
+
+#content1{
+    position: absolute;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 430px;
+    background-color: rgb(242, 246, 238);
+    color: grey;
+}
+
+.vertical-line1{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 620px;
+    border-left: 2px solid rgb(137, 122, 122);
+    height: 70px;
+}
+
+
+
+
+#collection{
+    position: absolute;
+    width: 70px;
+    margin-top: 36px;
+    margin-left: 640px;
+    background-color: rgb(242, 246, 238);
+}
+
+#coll{
+    position: absolute;
+    width: 70px;
+    font-size: 25px;
+    margin-top: 37px;
+    margin-left: 730px;
+    font-weight: 900;
+    background-color: rgb(242, 246, 238);
+}
+
+#content2{
+    position: absolute;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 730px;
+    background-color: rgb(242, 246, 238);
+    color: grey;
+}
+
+.vertical-line2{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 900px;
+    border-left: 2px solid rgb(137, 122, 122);
+    height: 70px;
+}
+
+
+
+
+
+#stats{
+    position: absolute;
+    width: 70px;
+    margin-top: 36px;
+    margin-left: 910px;
+    background-color: rgb(242, 246, 238);
+}
+
+#st{
+    position: absolute;
+    width: 70px;
+    font-size: 25px;
+    margin-top: 37px;
+    margin-left: 990px;
+    font-weight: 900;
+    background-color: rgb(242, 246, 238);
+}
+
+#content3{
+    position: absolute;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: 990px;
+    background-color: rgb(242, 246, 238);
+    color: grey;
+}
+
+
+.id{
+    position: absolute;
+}
+
+#pokeball{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 615px;
+    background-color: rgb(240, 240, 248);
+    height: 50px;
+}
+
+#copy{
+    position: absolute;
+    margin-top: 860px;
+    margin-left: 510px; 
+    background-color: rgb(240, 240, 248);
+}
